@@ -3,7 +3,7 @@ const mbHelper = require('mountebank-helper');
 const fs = require('fs');
 
 // create the skeleton for the imposter (does not post to MB)
-const firstImposter = new mbHelper.Imposter({'imposterPort': 3000});
+const firstImposter = new mbHelper.Imposter({'imposterPort': 3000, 'protocol': 'https'});
 const secondImposter = new mbHelper.Imposter({'imposterPort': 9000});
 
 // construct sample responses and conditions on which to send it

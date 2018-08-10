@@ -8,5 +8,9 @@
     "start": "nodemon src/index.js"
   },
   "author": "Anuradha Dunuhappawa",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mountebank": "^1.14.1",
+    "mountebank-helper": "^1.2.1"
+  }
 }
